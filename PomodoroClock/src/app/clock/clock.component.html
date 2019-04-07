@@ -1,0 +1,40 @@
+<div class="container">
+  <div class='break'>
+    <p id="break-label">Break Length</p>
+    <div id="break-length">
+      <button id="break-decrement" (click)="breakDecrement()" class='in' ><i  class="fas fa-chevron-circle-down"
+          ></i></button>
+      <p class='in' >{{breakLength}}</p>
+      <button id="break-increment" (click)="breakIncrement()" class='in' ><i  class="fas fa-chevron-circle-up"
+          ></i></button>
+    </div>
+  </div>
+
+  <div class='session'>
+    <p id="session-label">Session Length</p>
+    <div id="session-length">
+      <button id="session-decrement" (click)="sessionDecrement()" class='in' ><i  class="fas fa-chevron-circle-down"
+          ></i></button>
+      <p class='in' >{{sessionLength}}</p>
+      <button id="session-increment" (click)="sessionIncrement()" class='in' ><i  class="fas fa-chevron-circle-up"
+          ></i></button>
+    </div>
+  </div>
+  <p class='title' id="timer-label">{{title}}</p>
+  <div class="timer-container" >
+    <div id="time-left">{{this.time}}</div>
+  </div>
+  <div class="buttons" >
+    <button id="start_stop" class="btn-black" (click)="startTimer()">
+      <i class="fas fa-play-circle"></i>
+      <i class="fas fa-pause-circle"></i>
+    </button>
+   <button id="reset" class="btn-black" (click)="stopTimer()">
+      <i class="fas fa-undo"></i>
+  </button>
+
+  </div>
+</div>
+<audio id='beep'
+      preload='auto'
+      src='https://www.myinstants.com/media/sounds/gamecube_intro.mp3'></audio>

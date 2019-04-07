@@ -1,0 +1,120 @@
+.container {
+  color: #FFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.timer-container {
+  font-size: 200px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  line-height: 1;
+
+  display: flex;
+  /* border: 1px solid red; */
+}
+
+.minutes, .middle, .seconds {
+  padding: 15px;
+  /* border: 1px solid green; */
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-black {
+  width: 3em;
+  height: 3em;
+  background: #000;
+  color: #FFF;
+  margin: 5px;
+  border-radius: 10px;
+  font-size: 1em;
+}
+
+.message {
+  font-size: 1.5em;
+}
+/*-----------------------------------*/
+
+h1{
+  font-size: 60px;
+  font-family: Pacifico;
+}
+h3{
+  font-size: 40px;
+}
+.timers div{
+  display: inline-block;
+  margin: 0px 20px;
+}
+.in{
+  display: inline-block;
+  margin: 5px;
+}
+button{
+  color: white;
+  background-color: #22262B;
+  border:0;
+  outline: 0;
+}
+button:hover{
+  cursor: pointer;
+}
+#break-length, #session-length, button, .title{
+  font-size: 40px;
+}
+
+/* .clock{
+  height: 300px;
+  width: 300px;
+  margin: 20px auto;
+  border: 2px solid  #22262B;
+  box-shadow: 0 0 0px 2px SkyBlue;
+  border-radius: 100%;
+  cursor: pointer;
+}
+#grad {
+  background: -webkit-gradient(linear, top, bottom, color-stop(100%,#22262B), color-stop(40%,#00F));
+  background: -moz-linear-gradient(top center, #22262B 100%, #00F 40%);
+  background: -o-linear-gradient(top, #22262B 100%, #00F 40%);
+  background: linear-gradient(to bottom, #22262B 100%, #00F 0%);
+}
+
+.title, .timer{
+  font-size: 50px;
+  margin-top: 60px;
+}
+
+h1{
+  font-size: 60px;
+  font-family: Pacifico;
+}
+h3{
+  font-size: 40px;
+}
+.timers div{
+  display: inline-block;
+  margin: 0px 20px;
+}
+.in{
+  display: inline-block;
+  margin: 5px;
+}
+button{
+  color: white;
+  background-color: #22262B;
+  border:0;
+  outline: 0;
+}
+button:hover{
+  cursor: pointer;
+}
+#break, #count, button{
+  font-size: 40px;
+} */
+
+
